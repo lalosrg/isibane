@@ -45,8 +45,13 @@ header .logo-menu{
 
 
 
-header .menu{
+header .logo-menu .menu{
     display: none;
+}
+
+header .menu:hover{
+    background: #e5e5e5;
+    border-radius: 50%; 
 }
 
 
@@ -60,7 +65,7 @@ header .logo{
     color: #fff;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 8px;
     transition: all ease 0.7s;
@@ -69,15 +74,16 @@ header .logo{
 }
 
 header .logo p{
-    font-size: 0.4em;
+    font-size: 0.3em;
     margin-left: 11px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 header.abajo .logo{
     color: #0f44a7;
     transition: all ease 0.7s;
 }
+
 
 header .nav ul{
     display: flex;
@@ -628,7 +634,7 @@ footer .efect-footer span:nth-child(7){
         align-items: center;
         color: #fff;
         font-size: 30px;
-        margin-top: 10px;
+        
         display: flex;
         cursor: pointer;
         
