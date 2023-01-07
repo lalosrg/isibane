@@ -13,9 +13,10 @@
 #contacto-presupuesto .titulo-contacto h2{
     font-size: 2.5em;
     letter-spacing: 2px;
-    margin: 15px 0;
     text-align: center;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario{
@@ -210,7 +211,7 @@
 
 @media (max-width: 991px) {
     #contacto-presupuesto{
-        padding: 20px;
+        padding: 16px;
         padding-bottom: 80px;
     }
     .box{
@@ -244,10 +245,13 @@
     
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
     #contacto-presupuesto{
+        padding: 9px;
         margin: 0 0 140px 0;
-        padding: 10px 10px;
+    }
+    #contacto-presupuesto .titulo-contacto h2{
+        margin-left: 50px;
     }
 }
 
