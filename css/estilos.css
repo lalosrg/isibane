@@ -644,6 +644,10 @@ footer .efect-footer span:nth-child(7){
         
      }
 
+     header .logo-menu .menu:hover{
+        color: #0f44a7;
+     }
+
      header.abajo .logo-menu .menu {
         color: #0f44a7;
         transition: all ease 0.6s;
