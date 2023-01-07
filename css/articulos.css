@@ -1,0 +1,105 @@
+#articulos{
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto 60px;
+    padding: 60px 0;
+    gap: 35px;
+    flex-wrap: wrap;
+
+}
+
+.card-item{
+    background: rgb(250, 246, 246);
+    border-radius: 30px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+    flex-basis: 290px;
+    max-width: 410px;
+    flex-grow: 1;
+   
+    padding-bottom: 4em;
+    height: 520px;
+    transition: all 1000ms ease-out;
+}
+
+.card-item:hover{
+    transform: scale(1.02);
+    transition: all 1000ms ease-out;   
+    background: #f3d4242f;
+    box-shadow: -12px 15px 30px rgba(0, 0, 0,0.4);
+}
+
+.card-contenido{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.card-pic{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 13em;
+    filter: drop-shadow(15px -15px 15px rgba(0, 0, 0, 0.3));
+}
+
+
+.card-img{
+    width: 100%;
+}
+
+ .card-text{
+    height: 20px;
+    letter-spacing: 2px;
+    
+}
+
+.card-text p{
+    letter-spacing: 2px;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+
+.card-titulo{
+   margin: 0 auto 12px;
+   text-align: center;
+}
+
+.btn-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #0f44a7;
+    width: 135px;
+    border-radius: 15px;
+}
+
+.btn-card:hover{
+    background: #1452c5;
+}
+
+.btn-card a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 17px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 1105px) {
+    #articulos{
+        gap: 230px;
+    }
+}
+
+
+

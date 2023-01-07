@@ -1,0 +1,72 @@
+
+#banner-light{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+    background: #141414;
+    margin: auto;
+}
+
+#banner-light h2{
+    font-size: 6em;
+    color: #666;
+    font-weight: 500;
+    letter-spacing: 12px;
+}
+
+#banner-light h2 span{
+    animation: animate 2.8s linear infinite;
+}
+#banner-light h2 span:nth-child(1){
+    animation-delay:  0s;
+}
+#banner-light h2 span:nth-child(2){
+    animation-delay:  0.4s;
+}
+#banner-light h2 span:nth-child(3){
+    animation-delay:  0.8s;
+}
+#banner-light h2 span:nth-child(4){
+    animation-delay:  1.2s;
+}
+#banner-light h2 span:nth-child(5){
+    animation-delay:  1.6s;
+}
+#banner-light h2 span:nth-child(6){
+    animation-delay:  2s;
+}
+#banner-light h2 span:nth-child(7){
+    animation-delay:  2.4s;
+}
+
+
+@keyframes animate{
+    0%,80%{
+        color: #333;
+        text-shadow: none;
+    }
+    100%{
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+       0 0 20px #fff,
+       0 0 40px #fff,
+       0 0 80px #fff,
+       0 0 120px #fff,
+       0 0 160px #fff,
+       0 0 200px #fff,
+       0 0 260px #fff;
+    }
+}
+
+@media (max-width: 800px){
+    #banner-light h2{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 500px){
+    #banner-light h2{
+        font-size: 2.3em;
+    }
+}
